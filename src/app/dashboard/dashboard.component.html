@@ -1,0 +1,68 @@
+<div class="container-fluid">
+    <application-Header></application-Header>
+    <list-Filters></list-Filters>
+    <div class="row">
+        <div class="col-md-2 bg-white border-right">
+            <app-sidebar></app-sidebar>
+        </div>
+        <div class="col-md-10">
+            <div class="row">
+                <div class="col-md-9 ps-0 pe-0">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <agent-list></agent-list>
+                    </div>
+                    <div class="col-md-12 mt-5 mb-5">
+                        <div class="row ms-2 me-2">
+                            <div class="col-md-4">
+                              <product-card></product-card>
+                            </div>
+                            <div class="col-md-4">
+                              <product-card></product-card>
+                            </div>
+                            <div class="col-md-4">
+                              <product-card></product-card>
+                            </div>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <phase-results></phase-results>
+                        </div>
+                        <div class="col-md-12">
+                            <input-fields></input-fields>
+                        </div>
+                        <div class="col-md-12">
+                          <mat-card class="current-progress">
+                            <mat-progress-spinner
+                            class="example-margin"
+                            [color]="color"
+                            [mode]="mode"
+                            [value]="value">
+                            </mat-progress-spinner>
+                            <span class="text-center mt-3 mb-2">Current Progress</span>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="mt-4 mb-3">
+                              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                              Modi similique nobis, eum perferendis minima fuga qui! Dignissimos,
+                              eligendi pariatur vitae facilis itaque minus,soluta,
+                              doloribus modi doloremque sequi perferendis dolores.
+                            </p>
+                            <div class="fingure-print">
+                              <button mat-fab  class="align-right">
+                                <i class="material-icons">fingerprint</i>
+                              </button>
+                            </div>
+
+                          </mat-card>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

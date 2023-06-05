@@ -1,0 +1,13 @@
+table {
+  width: 100%;
+  box-shadow: none;
+}
+
+table th{
+  font-weight: 700;
+  color: #000;
+}
+.agents {
+  width: 15%;
+  height: auto;
+}

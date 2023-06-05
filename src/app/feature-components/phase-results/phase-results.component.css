@@ -1,0 +1,16 @@
+
+.phase-results h4 {
+  font-weight: 500 !important;
+}
+
+.phase-results ul {
+  list-style: none;
+  padding-left: 16px;
+}
+
+.phase-results ul > li {
+  font-weight: 500 !important;
+}
+.phase-results ul li span {
+  color: #979b9b;
+}

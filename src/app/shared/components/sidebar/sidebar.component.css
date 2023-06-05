@@ -1,0 +1,37 @@
+.container-sidebnav {
+  height: 100vh;
+}
+.sidebar {
+  height: 100%;
+}
+.content {
+  height: 100%;
+}
+.mat-drawer-side{
+  border-right: none !important;
+}
+.side-nav{
+  list-style: none;
+  padding: 0;
+}
+.side-nav  li p{
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none;
+    color: #000;
+}
+
+.side-nav  a{
+  text-decoration: none;
+}
+
+.iconz {
+  color: #000;
+  font-size: 18px;
+  height: 18px;
+  margin-right: 6px;
+  width: 18px;
+}
+.mat-drawer-container{
+  background-color: #fff;
+}

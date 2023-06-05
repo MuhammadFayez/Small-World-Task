@@ -1,0 +1,27 @@
+.current-progress{
+  background: #76b852;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #8DC26F, #76b852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.current-progress .mat-progress-spinner{
+  margin: 0 auto;
+}
+.current-progress span {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+}
+.current-progress p {
+  font-size: 12px;
+  font-weight: 500;
+}
+.fingure-print {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.align-right {
+  margin-left: auto;
+}
